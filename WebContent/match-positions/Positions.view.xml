@@ -1,0 +1,328 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m" controllerName="match-positions.Positions" xmlns:html="http://www.w3.org/1999/xhtml"
+	xmlns:l="sap.ui.layout" xmlns:f="sap.f">
+	<Page title="Title">
+		<content>
+			<l:BlockLayout>
+				<l:BlockLayoutRow rowColorSet="ColorSet6" class="fistrow">
+
+					<l:BlockLayoutCell 
+						width="70%" backgroundColorSet="ColorSet10" backgroundColorShade="ShadeA">
+						<VBox>
+							<Text text="31st march 2018" />
+							<Text text="7:30AM" />
+							<Text text="Lingampally-Hudacolony road,PJR stadium" />
+						</VBox>
+					</l:BlockLayoutCell>
+
+
+
+
+					<l:BlockLayoutCell width="20%"
+						backgroundColorSet="ColorSet10" backgroundColorShade="ShadeA">
+						
+								
+									<f:Avatar displayShape="Circle" src="image/govi.JPG"
+										displaySize="L" />
+									<Text text="Govardhan" />
+									<Text text="9704430990" />
+										
+					</l:BlockLayoutCell>
+								<l:BlockLayoutCell  width="20%" backgroundColorSet="ColorSet10" backgroundColorShade="ShadeA">
+									<f:Avatar displayShape="Circle" src="image/suri.jpg"
+										displaySize="L" />
+									<Text text="Surender" />
+									<Text text="9704430990" />
+								</l:BlockLayoutCell>
+					
+
+				</l:BlockLayoutRow>
+				<l:BlockLayoutRow class="secrow">
+
+					<l:BlockLayoutCell titleAlignment="Center" title="TEAM-1">
+						<l:BlockLayout>
+
+							<l:BlockLayoutRow>
+
+								<l:BlockLayoutCell width="33%"
+									backgroundColorSet="ColorSet6" backgroundColorShade="ShadeD">
+									<VBox>
+										<Text text="1" />
+										<Text text="OPENER" />
+										<Text text="RS.299" />
+									</VBox>
+								</l:BlockLayoutCell>
+								<l:BlockLayoutCell width="33%"
+									backgroundColorSet="ColorSet6" backgroundColorShade="ShadeC">
+									<VBox>
+										<Text text="2" />
+										<Text text="RUNNER" />
+										<Text text="RS.289" />
+									</VBox>
+								</l:BlockLayoutCell>
+								<l:BlockLayoutCell width="33%"
+									backgroundColorSet="ColorSet6" backgroundColorShade="ShadeB">
+									<VBox>
+										<Text text="3" />
+										<Text text="BATSMEN" />
+										<Text text="RS.279" />
+									</VBox>
+								</l:BlockLayoutCell>
+
+							</l:BlockLayoutRow>
+
+
+
+							<l:BlockLayoutRow>
+								<l:BlockLayoutCell backgroundColorSet="ColorSet10"
+									backgroundColorShade="ShadeA">
+									<VBox>
+										<Text text="4" />
+										<Text text="BATSMEN" />
+
+										<Text text="RS.269" />
+										<Text />
+									</VBox>
+								</l:BlockLayoutCell>
+								<l:BlockLayoutCell backgroundColorSet="ColorSet10"
+									backgroundColorShade="ShadeB">
+									<VBox>
+										<Text text="5" />
+										<Text text="BATSMEN" />
+
+										<Text text="RS.249" />
+										<Text />
+									</VBox>
+								</l:BlockLayoutCell>
+								<l:BlockLayoutCell backgroundColorSet="ColorSet10"
+									backgroundColorShade="ShadeC">
+									<VBox>
+										<Text text="6" />
+										<Text text="BATTING " />
+										<Text text="ROUNDER" />
+										<Text text="RS.269" />
+									</VBox>
+								</l:BlockLayoutCell>
+
+							</l:BlockLayoutRow>
+
+
+
+
+							<l:BlockLayoutRow>
+								<l:BlockLayoutCell backgroundColorSet="ColorSet5"
+									backgroundColorShade="ShadeC">
+									<VBox>
+										<Text text="7" />
+										<Text text="KEEPER" />
+										<Text text="" />
+										<Text text="RS.249" />
+									</VBox>
+								</l:BlockLayoutCell>
+								<l:BlockLayoutCell backgroundColorSet="ColorSet5"
+									backgroundColorShade="ShadeA">
+									<VBox>
+										<Text text="8" />
+										<Text text="BOWLING" />
+										<Text text="ROUNDER" />
+										<Text text="RS.249" />
+									</VBox>
+								</l:BlockLayoutCell>
+								<l:BlockLayoutCell backgroundColorSet="ColorSet5"
+									backgroundColorShade="ShadeB">
+									<VBox>
+										<Text text="9" />
+										<Text text="BOWLING" />
+										<Text text="ROUNDER" />
+										<Text text="RS.259" />
+									</VBox>
+								</l:BlockLayoutCell>
+
+							</l:BlockLayoutRow>
+
+
+
+							<l:BlockLayoutRow>
+								<l:BlockLayoutCell backgroundColorSet="ColorSet7"
+									backgroundColorShade="ShadeB">
+									<VBox>
+										<Text text="10" />
+										<Text text="RUNNER " />
+										<Text text="BOWLER" />
+										<Text text="RS.269" />
+									</VBox>
+								</l:BlockLayoutCell>
+								<l:BlockLayoutCell backgroundColorSet="ColorSet7"
+									backgroundColorShade="ShadeD">
+									<VBox>
+										<Text text="11" />
+										<Text text="OPENING " />
+										<Text text="BOWLER" />
+										<Text text="RS.289" />
+									</VBox>
+								</l:BlockLayoutCell>
+
+							</l:BlockLayoutRow>
+						</l:BlockLayout>
+
+
+
+					</l:BlockLayoutCell>
+
+					<l:BlockLayoutCell titleAlignment="Center" title="TEAM-1"
+						htmlcss="color:blue">
+						<l:BlockLayout>
+
+							<l:BlockLayoutRow>
+
+								<l:BlockLayoutCell backgroundColorSet="ColorSet6"
+									backgroundColorShade="ShadeD">
+									<VBox>
+										<Text text="1" />
+										<Text text="OPENER" />
+										<Text text="RS.299" />
+									</VBox>
+								</l:BlockLayoutCell>
+								<l:BlockLayoutCell backgroundColorSet="ColorSet6"
+									backgroundColorShade="ShadeC">
+									<VBox>
+										<Text text="2" />
+										<Text text="RUNNER" />
+										<Text text="RS.289" />
+									</VBox>
+								</l:BlockLayoutCell>
+								<l:BlockLayoutCell backgroundColorSet="ColorSet6"
+									backgroundColorShade="ShadeB">
+									<VBox>
+										<Text text="3" />
+										<Text text="BATSMEN" />
+										<Text text="RS.279" />
+									</VBox>
+								</l:BlockLayoutCell>
+
+							</l:BlockLayoutRow>
+
+
+
+							<l:BlockLayoutRow>
+								<l:BlockLayoutCell width="33.33%"
+									backgroundColorSet="ColorSet10" backgroundColorShade="ShadeA">
+									<VBox>
+										<Text text="4" />
+										<Text text="BATSMEN" />
+
+										<Text text="RS.269" />
+										<Text />
+									</VBox>
+								</l:BlockLayoutCell>
+								<l:BlockLayoutCell width="33.33%"
+									backgroundColorSet="ColorSet10" backgroundColorShade="ShadeB">
+									<VBox>
+										<Text text="5" />
+										<Text text="BATSMEN" />
+
+										<Text text="RS.249" />
+										<Text />
+									</VBox>
+								</l:BlockLayoutCell>
+								<l:BlockLayoutCell width="33.33%"
+									backgroundColorSet="ColorSet10" backgroundColorShade="ShadeC">
+									<VBox>
+										<Text text="6" />
+										<Text text="BATTING " />
+										<Text text="ROUNDER" />
+										<Text text="RS.269" />
+									</VBox>
+								</l:BlockLayoutCell>
+
+							</l:BlockLayoutRow>
+
+
+
+
+							<l:BlockLayoutRow>
+								<l:BlockLayoutCell width="33.33%"
+									backgroundColorSet="ColorSet5" backgroundColorShade="ShadeC">
+									<VBox>
+										<Text text="7" />
+										<Text text="KEEPER" />
+										<Text text="" />
+										<Text text="RS.249" />
+									</VBox>
+								</l:BlockLayoutCell>
+								<l:BlockLayoutCell width="33.33%"
+									backgroundColorSet="ColorSet5" backgroundColorShade="ShadeA">
+									<VBox>
+										<Text text="8" />
+										<Text text="BOWLING" />
+										<Text text="ROUNDER" />
+										<Text text="RS.249" />
+									</VBox>
+								</l:BlockLayoutCell>
+								<l:BlockLayoutCell width="33.33%"
+									backgroundColorSet="ColorSet5" backgroundColorShade="ShadeB">
+									<VBox>
+										<Text text="9" />
+										<Text text="BOWLING" />
+										<Text text="ROUNDER" />
+										<Text text="RS.259" />
+									</VBox>
+								</l:BlockLayoutCell>
+
+							</l:BlockLayoutRow>
+
+
+
+							<l:BlockLayoutRow>
+								<l:BlockLayoutCell width="33.33%"
+									backgroundColorSet="ColorSet7" backgroundColorShade="ShadeB">
+									<VBox>
+										<Text text="10" />
+										<Text text="RUNNER " />
+										<Text text="BOWLER" />
+										<Text text="RS.269" />
+									</VBox>
+								</l:BlockLayoutCell>
+								<l:BlockLayoutCell width="33.33%"
+									backgroundColorSet="ColorSet7" backgroundColorShade="ShadeD">
+									<VBox>
+										<Text text="11" />
+										<Text text="OPENING " />
+										<Text text="BOWLER" />
+										<Text text="RS.289" />
+									</VBox>
+								</l:BlockLayoutCell>
+
+							</l:BlockLayoutRow>
+						</l:BlockLayout>
+
+
+
+					</l:BlockLayoutCell>
+
+
+
+				</l:BlockLayoutRow>
+
+				<l:BlockLayoutRow>
+					<l:BlockLayoutCell width="30%"
+						backgroundColorSet="ColorSet10" backgroundColorShade="ShadeB"></l:BlockLayoutCell>
+					<l:BlockLayoutCell width="30%"
+						backgroundColorSet="ColorSet10" backgroundColorShade="ShadeA">
+
+						<l:VerticalLayout>
+							<Text text="Batting order is based on numbers specified" />
+							<Text text="fielding will be set by Bowler" />
+							<Button text="Check Bowling Order" />
+						</l:VerticalLayout>
+
+					</l:BlockLayoutCell>
+					<l:BlockLayoutCell width="30%"
+						backgroundColorSet="ColorSet10" backgroundColorShade="ShadeC"></l:BlockLayoutCell>
+
+				</l:BlockLayoutRow>
+			</l:BlockLayout>
+
+		</content>
+	</Page>
+</core:View>

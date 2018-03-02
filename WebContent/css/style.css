@@ -1,0 +1,20 @@
+.sapUiBlockCellContent{
+	
+	padding:0px;
+}
+
+.secrow{
+	padding-top:0px;
+}
+ .fistrow{
+ padding-bottom:0px;
+	
+}
+.sapUiBlockHorizontalCell  .sapUiBlockLayoutCell{
+	
+	padding-top:0px;'
+}
+.sapUiBlockCellContent .sapUiBlockCellCenteredContent{
+	padding:0px;
+	display:none;
+}
